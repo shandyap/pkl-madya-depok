@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Classmet SMK Madya Depok</title>
+    <script>
+        // Script untuk menampilkan tanggal hari ini
+        function setTanggal() {
+            const today = new Date();
+            const tanggal = today.toLocaleDateString("id-ID");
+            document.getElementById("tanggal").value = tanggal;
+        }
+    </script>
+</head>
+<body onload="setTanggal()">
+    <center>
+        <h1>CLASSMET SMK MADYA DEPOK</h1>
+        <img src="/pekan 1/image.png" width="300" height="300" alt="Image 1">
+        <img src="/pekan 1/clasmit.png" width="300" height="300" alt="Image 2">
+
+        <section>
+            <h2>JENIS LOMBA:</h2>
+            <hr width="90%" size="5">
+            <ul>
+                <li>FUTSAL</li>
+                <li>NARI</li>
+                <li>BAND</li>
+                <li>KREAVITAS</li>
+                <li>CERDAS CERMAT</li>
+                <li>MENYANYI</li>
+                <li>YEL-YEL</li>
+                <li>KONTEN MEDIA SOSIAL</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Formulir Pendaftaran</h2>
+            <form action="#" method="post">
+                <table>
+                    <tr>
+                        <td>Nama Lengkap:</td>
+                        <td><input type="text" name="nama" required></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin:</td>
+                        <td>
+                            <input type="radio" name="gender" value="Laki-laki" required> Laki-laki
+                            <input type="radio" name="gender" value="Perempuan"> Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Kelas:</td>
+                        <td>
+                            <select name="kelas" required>
+                                <option value="">-- Pilih Kelas --</option>
+                                <option value="XII RPL 1">XII RPL 1</option>
+                                <option value="XII RPL 2">XII RPL 2</option>
+                                <option value="XII DKV 1">XII DKV 1</option>
+                                <option value="XII PM 1">XII PM 1</option>
+                                <option value="XII PM 2">XII PM 2</option>
+                                <option value="XII MPLB 1">XII MPLB 1</option>
+                                <option value="XII MPLB 2">XII MPLB 2</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Lomba:</td>
+                        <td>
+                            <select name="jenis_lomba" required>
+                                <option value="">-- Pilih Lomba --</option>
+                                <option value="FUTSAL">FUTSAL</option>
+                                <option value="NARI">NARI</option>
+                                <option value="BAND">BAND</option>
+                                <option value="KREAVITAS">KREAVITAS</option>
+                                <option value="CERDAS CERMAT">CERDAS CERMAT</option>
+                                <option value="MENYANYI">MENYANYI</option>
+                                <option value="YEL-YEL">YEL-YEL</option>
+                                <option value="KONTEN MEDIA SOSIAL">KONTEN MEDIA SOSIAL</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Alasan Mengikuti:</td>
+                        <td><textarea name="alasan" rows="4" cols="30" placeholder="Tulis alasanmu..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Daftar:</td>
+                        <td><input type="text" name="tanggal" id="tanggal" readonly></td>
+                    </tr>
+                    <tr>
+                        <td>Catatan Tambahan:</td>
+                        <td><input type="text" name="catatan" placeholder="(opsional)"></td>
+                    </tr>
+                </table>
+                <br>
+                <input type="submit" value="DAFTAR">
+                <input type="reset" value="RESET">
+            </form>
+        </section>
+
+        <section>
+            <h2>DAFTAR SISWA YANG SUDAH MENDAFTAR</h2>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <tr>
+                    <th>No</th>
+                    <th>Nama Lengkap</th>
+                     <th>Jenis Kelamin</th>
+                    <th>Kelas</th>
+                     <th>Jenis Lomba</th>
+                    <th>Alasan Mengikuti</th>
+                     <th>Tanggal Daftar</th>
+                      <th>Catatan Tambahan</th>
+                </tr>
+                <tr>
+                   <td>1</td>
+                    <td>Handika Maulana</td>
+                     <td>Laki-laki</td>
+                    <td>XII RPL 1</td>
+                     <td>FUTSAL</td>
+                    <td>karena saya suka berorahlaga</td>
+                     <td>17/7/2025</td>
+                      <td>-</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rifky Wahyu P</td>
+                     <td>Laki-laki</td>
+                    <td>XII DKV 1</td>
+                     <td>MENYANYI</td>
+                    <td>karena saya suka mendengarkan lagu</td>
+                     <td>17/7/2025</td>
+                      <td>-</td>
+                </tr>
+                 <tr>
+                    <td>3</td>
+                    <td>Rifat Aditia</td>
+                     <td>Laki-laki</td>
+                    <td>XII MPLB 2</td>
+                     <td>NARI</td>
+                    <td>karena hobbi saya menari</td>
+                     <td>17/7/2025</td>
+                      <td>-</td>
+                </tr>
+            </table>
+        </section>
+<!-- Visi Misi Classmeeting -->
+    <section>
+      <h2>VISI & MISI CLASSMEETING</h2>
+      <h3>Visi:</h3>
+      <p>Mewujudkan siswa yang aktif, kreatif, dan berprestasi melalui kegiatan kompetitif yang menyenangkan dan sportif.</p>
+      <h3>Misi:</h3>
+      <ul>
+        <li>Mengembangkan bakat dan minat siswa di bidang seni, olahraga, dan intelektual.</li>
+        <li>Meningkatkan rasa kebersamaan dan sportivitas antar siswa.</li>
+        <li>Memberikan ruang ekspresi yang positif dan membangun.</li>
+        <li>Menumbuhkan semangat juang dan percaya diri dalam kompetisi.</li>
+      </ul>
+    </section>
+        <footer>
+            <p><small>&copy; 2025 SMK MADYA DEPOK - Panitia Classmet</small></p>
+        </footer>
+    </center>
+</body>
+</html>
