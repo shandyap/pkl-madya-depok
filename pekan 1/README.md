@@ -1,0 +1,2 @@
+Hari ini saya belajar github, dan dasar dasar html yang sudah di kasih oleh ka shandy
+yang saya pelajari dari mulai membuat tebal atau tipisnya teks dan membuat tabel" dan text field, combo box, button, garis dan shortcut"di dalam visualcode
