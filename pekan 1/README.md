@@ -22,7 +22,7 @@ setelah masuk ke dalamvscode
 center untuk tulisan menjadi rapih ke tengah
 
 
-Pentuppp saya belum tahuuuu hehhehhe(utk teerminal)
-
-
-
+Penutup
+git add.
+git commit -m
+git push origin dika
