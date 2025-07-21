@@ -1,0 +1,33 @@
+<html>
+  <head>
+  <link rel="stylesheet" href="fatstyle.css">
+  </head>
+  <body>
+    <h3>CSS Form</h3>
+    <div>
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+        <label for="province">Province</label>
+        <select id="province" name="province">
+          <option value="jakarta">DKI Jakarta</option>
+          <option value="jawa tengah">Jawa Tengah</option>
+          <option value="bali">Bali</option>
+        </select>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
